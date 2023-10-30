@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+
+.board {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 496px;
+  height: 620px;
+}
+
+.board img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid #6a6a6a;
+  z-index: 1;
+  padding: 10px;
+}
